@@ -1,0 +1,36 @@
+body {
+  overflow: hidden;
+}
+section {
+  max-width: 100vmin;
+  max-height: 100vmin;
+  margin: auto;
+}
+div{
+  height: calc(33vmin - 2px);
+  width: calc(33vmin - 2px);
+  margin:0;
+  background-color: white;
+}
+div.available:hover{
+  background-color: green;
+}
+div.circulo::before, div.cruz::before{
+  display: block;
+  height: 16vmin;
+  width: 16vmin;
+  position: absolute;
+  top: 8vmin;
+  left: 8vmin;
+}
+div.circulo::before{
+  content: "";
+  border: 1rem solid green;
+  border-radius: 50%;
+}
+div.cruz::before{
+  content: "\2716";
+  color: red;
+  font-size: calc(16vmin + 2rem);
+  line-height: calc(16vmin + 2rem);
+}
