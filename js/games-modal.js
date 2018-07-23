@@ -1,6 +1,7 @@
 function gamesModal(game) {
 	$("body").append("<div id='gamesModal'></div>");
-  $("#gamesModal").load(game + "/index.html");
+  var url = game + "/index.html"
+  $("#gamesModal").load(url);
 }
 
 $( ".game" ).click(function(e) {
