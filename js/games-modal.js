@@ -1,5 +1,6 @@
 function gamesModal(game) {
-	$("body").append("<div><iframe src='" + game + "'></iframe></div>");
+	$("body").append("<div id='gamesModal'></div>");
+  $("#gamesModal").load(game + "/index.html");
 }
 
 $( ".game" ).click(function(e) {
