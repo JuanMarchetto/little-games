@@ -5,20 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Maternal Rayuela</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/rayuela.css" rel="stylesheet">
-        <link href="css/carousel.css" rel="stylesheet">
-        <meta name="AUTHOR" content="Juan Patricio Marchetto">
-        <meta name="Author-Metatags" content="juanpatriciomarchetto@gmail.com">
     </head>
     <body>
-        <article>
-        <section>   </section>
-        <div class="container">
-            <button type="button" class="btn btn-info btn-lg">¡Juguemos a la Rayuela!</button>
- <div id="myModal" class="modal">
-        <span class="close">&times;</span>
-                        <div class="modal-body">
                             <section>
                                 <div id="1" class="tierra"></div>
                                 <div class="cuadrado">
@@ -44,37 +33,9 @@
                                 </div>
                                 <div  id="9" class="cielo"></div>
                             </section>
-                        </div>
-                    </div>   
-                </div>
-    </div>
-            
-        </div>
-    </article>
-    <footer>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <script src="../js/jquery-3.3.1.min.js"></script>
         <script src="js/audiosynth.js"></script>
         <script src="js/piano-rayuela.js"></script>
-        <script>
-        var modal = document.getElementById('myModal');
-        var captionText = document.getElementById("caption");
-        $('button').click(function() {
-            modal.style.display = "block";
 
-        })
-        var span = document.getElementsByClassName("close")[0];
-        span.onclick = function() {
-            modal.style.display = "none";
-        }
-        $( "body" ).keyup(function(event){
-            if (event.keyCode == 27){
-                modal.style.display = "none";
-            }
-        });
-        
-    </script>
-    </footer>
 </body>
 </html>
