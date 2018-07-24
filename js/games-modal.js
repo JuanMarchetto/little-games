@@ -1,3 +1,3 @@
 $( ".game" ).click(function(e) {
-	window.location.href = "/" + (e.target.id);
+	window.location.href = "/little-games/" + (e.target.id);
 });
