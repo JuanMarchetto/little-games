@@ -4,48 +4,6 @@ body {
             background-color: rgba(0, 0, 0, 1);
             text-align: center;
 }
-.logo {
-    width: 10em;
-}
-.navbar{
-    padding-right: 30px;
-    padding-left: 30px;
-}
-
-iframe {
-    width: 90%;
-    margin: 5%;
-    padding: auto;
-    margin-top: 5em;
-    height: 40em;
-}
-
-article {
-    align-content: center;
-    margin:0;
-}
-footer{min-height: 0 margin:0;}
-h4 {
-    padding-top: 5px;
-}
-
-h1 {
-    text-align: center;
-}
-
-video {
-    width: 100%;
-    margin: 0;
-}
-video[poster]{
-    position: relative;
-    top:-50px;
-    margin: 0;
-}
-
-header {
-    display: inline-block;
-
 section {
     margin: auto;
     padding-top: 100px;
