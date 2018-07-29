@@ -1,5 +1,7 @@
+*, *::after, *::before {box-sizing: border-box;}
 body {
   overflow: hidden;
+  background-color: black;
 }
 section {
   max-width: 100vmin;
@@ -11,6 +13,9 @@ div{
   width: calc(33vmin - 2px);
   margin:0;
   background-color: white;
+  border: solid 1px gray;
+  display: inline-block;
+  position: relative;
 }
 div.available:hover{
   background-color: green;
