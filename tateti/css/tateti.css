@@ -4,16 +4,15 @@ body {
   background-color: black;
 }
 section {
-  max-width: 100vmin;
-  max-height: 100vmin;
+  max-width: 99.5vmin;
+  max-height: 99.5vmin;
   margin: auto;
 }
 div{
-  height: calc(33vmin - 2px);
-  width: calc(33vmin - 2px);
-  margin:0;
+  height: 32vmin;
+  width: 32vmin;
+  margin: 0;
   background-color: white;
-  border: solid 1px gray;
   display: inline-block;
   position: relative;
 }
