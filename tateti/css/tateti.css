@@ -35,6 +35,6 @@ div.circulo::before{
 div.cruz::before{
   content: "\2716";
   color: red;
-  font-size: calc(16vmin + 2rem);
-  line-height: calc(16vmin + 2rem);
+  font-size: calc(16vmin + 1rem);
+  line-height: calc(16vmin + 1rem);
 }
