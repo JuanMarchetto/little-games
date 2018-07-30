@@ -4,8 +4,8 @@ body {
   background-color: black;
 }
 section {
-  max-width: 99.5vmin;
-  max-height: 99.5vmin;
+  width: 99vmin;
+  height: 99vmin;
   margin: auto;
 }
 div{
