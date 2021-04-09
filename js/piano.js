@@ -8,5 +8,5 @@ $(".tecla").click(function(e){
     	instrumento = ($(e.target).attr("instrumento"));
     }
   instrumento.play(($(e.target).attr("key")), ($(e.target).attr("oct")), time);
-  $(".bg-change").css("background-color", ($( this ).css( "background-color" )));//esto es un comentario de una linea
+  $(".bg-change").css("background-color", ($( this ).css( "background-color" )));
 });
